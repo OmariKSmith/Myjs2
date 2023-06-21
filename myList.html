@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- cfg -->
+    <title>My List</title>
+    <link
+      rel="styleSheet"
+      href="styles/myListViews.css"
+    >
+  </head>
+  <body>
+    <!-- MODEL -->
+    <script src="data/myListModel.js"></script>
+    
+    <!-- VIEW -->
+    <p>My List</p>
+    <div class="js-div-user-input css-div-user-input">
+      <input class="js-input-name css-input-name" placeholder="Todo Name">
+      <input class="js-input-due-date css-input-due-date" type="date">
+      <button class="js-button-add-todo css-button-add-todo"></button>
+    </div>
+
+    <div class="js-div-list-todo css-div-list-todo"></div>
+
+    <!-- CONTROLLER -->
+    <script src="scripts/myListController.js"></script>
+  </body>
+</html>
