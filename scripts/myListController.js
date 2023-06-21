@@ -1,10 +1,10 @@
 
 try {
-  //CREATE ACTION: NONE
+  //CREATE ACTION: button event addTodo
 
-  //RETRIEVE ACTIONS: renderStartUpView -> renderTodoListRows
+  //READ ACTIONS: renderStartUpView -> renderTodoListRows
 
-  //UPDATE ACTIONS: button event addTodo
+  //UPDATE ACTIONS: NONE
 
   //DELETE ACTIONS: button event deleteTodo 
 
